@@ -22,7 +22,15 @@ body{
 .c-nav{
 	margin-top: 0px;
 	width: 100%;
-	background: rgba(45,45,45,0.98);
+	background: rgba(45,45,45,0.75);
+	position: fixed;/*菜单悬停*/
+
+	filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+        -webkit-filter: blur(40px); /* Chrome, Opera */
+           -moz-filter: blur(40px);
+            -ms-filter: blur(40px);   
+                filter: blur(40px);
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
 	
 }
 .c-nav .navFlex{
@@ -135,9 +143,10 @@ body{
 	top:0px;
 	height: 40px;
 	width: 100%;
-	background-color:#000000ba;
+	background-color:#000000;
 }
 .imgtost{
 
 	width: 100%;
+	height: 400%;
 }
