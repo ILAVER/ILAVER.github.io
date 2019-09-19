@@ -1,5 +1,12 @@
+@font-face{
+	font-family: "pfsc";
+	src: url(../font/PFSC.ttf);
+}
+
 body{
 	background:#fdfcf8;
+	font-family:"pfsc";
+	font-style: normal;
 }
 *{margin:0;padding:0;list-style-type:none;}
 
@@ -13,7 +20,7 @@ body{
 }
 /* 导航栏 */
 .c-nav{
-	margin-top: 40px;
+	margin-top: 0px;
 	width: 100%;
 	background: rgba(45,45,45,0.98);
 	
@@ -31,11 +38,17 @@ body{
 	list-style: none;
 	margin-bottom: 0px;
 	padding-left: 0px;
+	text-align: center;
 }
 .c-nav ul li{
 	padding: 13px 0px 13px 0px;
-	margin-left: 30px;
+	margin-right: 20px;
 	display: inline-block;
+	width: 100px;
+}
+.c-nav ul li:hover{
+	/* border-bottom: 3px solid #e4c17e; */
+	opacity: .65;
 }
 .c-nav ul li a{
 	font-size: 13px;
@@ -44,10 +57,7 @@ body{
 	text-decoration: none;
 	border-bottom: 3px solid transparent;
 }
-.c-nav ul li a:hover{
-	/* border-bottom: 3px solid #e4c17e; */
-	opacity: .65;
-}
+
 .c-nav-logo{
 	background-image: url("../img/svg/catailogo.svg");
 	background-size:80px 30px;
@@ -120,4 +130,14 @@ body{
 		text-align: center;
 		display: none;
 	}
+}
+.flexitem2{
+	top:0px;
+	height: 40px;
+	width: 100%;
+	background-color:#000000ba;
+}
+.imgtost{
+
+	width: 100%;
 }
