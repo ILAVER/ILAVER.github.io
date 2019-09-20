@@ -22,16 +22,8 @@ body{
 .c-nav{
 	margin-top: 0px;
 	width: 100%;
-	background: rgba(45,45,45,0.75);
+	background: rgba(45,45,45,0.85);
 	position: fixed;/*菜单悬停*/
-
-	filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
-        -webkit-filter: blur(40px); /* Chrome, Opera */
-           -moz-filter: blur(40px);
-            -ms-filter: blur(40px);   
-                filter: blur(40px);
-        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
-	
 }
 .c-nav .navFlex{
 	display: flex;
@@ -145,8 +137,36 @@ body{
 	width: 100%;
 	background-color:#000000;
 }
-.imgtost{
+.box{
+text-align: center;
+max-width: 1920px;
+width: 100%;
+max-height: auto;
+background: rgb(207, 207, 207); 
+margin: auto;
+}
 
-	width: 100%;
-	height: 400%;
+.tu1{
+max-width: 1920px;
+max-height: 1080px;
+/* border-radius:5px; */
+}
+.gonggao{
+	float: right;
+	margin-left: 920px;
+	max-width: 200px;
+	min-width: 100px;
+	background: rgb(255, 255, 255);
+	height: 800px;
+}
+.pdiv{
+	color: #F4F4F4;
+	background-image: url(../img/tu1.png);
+	width: 1920px;
+	height: 900px;
+}
+.pdiv-p{
+	
+	margin:  0 auto;
+	padding-top: 400px;
 }
